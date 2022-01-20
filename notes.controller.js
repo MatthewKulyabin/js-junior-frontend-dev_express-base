@@ -1,6 +1,7 @@
 const fs = require('fs/promises');
 const path = require('path');
 const chalk = require('chalk');
+const yargs = require('yargs');
 
 const notesPath = path.join(__dirname, 'db.json');
 
